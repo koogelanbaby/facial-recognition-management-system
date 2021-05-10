@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+
+table,
+th,
+td {
+    width: 100%;
+    padding: absolute;
+    margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+    table-layout: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0.5;
+    color: black;
+    margin-top: 60px;
+}
+
+th,
+td {
+    padding: 25px;
+    opacity: 1.2;
+}
+
+.transparent {
+    padding: 18px;
+    width: 97.5%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.transparent li {
+    list-style: none;
+    display: inline;
+}
+
+.transparent li a {
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .5s ease-in;
+}
+
+.transparent li a:hover {
+    background-color: crimson;
+}
